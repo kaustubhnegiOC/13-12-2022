@@ -1,0 +1,33 @@
+<!-- <p>dashboard works!</p> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <mat-sidenav-container>
+    <mat-sidenav-content>  <button mat-button color="primary" a a [routerLink]="['/startday']" class = 'sidenavi'>Start Day</button></mat-sidenav-content>
+    <mat-sidenav-content>  <button mat-button color="primary" a a [routerLink]="['/endday']" class = 'sidenavi'>End Day</button></mat-sidenav-content>
+    <mat-sidenav-content>  <button mat-button color="primary" a a [routerLink]="['/report']" class = 'sidenavi'>Report</button></mat-sidenav-content>
+    
+ 
+    
+  </mat-sidenav-container>
+  <!-- <div class="w3-sidebar w3-bar-block w3-light-grey" style="width:25%">
+    <a  button class="w3-bar-item w3-button">Start Day</a>
+    <app-start-day></app-start-day>
+    <br>
+    <br>
+    <br>
+    <a [routerLink]="['/endday']" class="w3-bar-item w3-button w3-hover-black">End Day</a>
+    <br>
+    <br>
+    <br>
+    <a [routerLink]="['/report']" class="w3-bar-item w3-button w3-hover-green">Report</a> -->
+  
+  
+ <router-outlet></router-outlet>
